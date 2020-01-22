@@ -7,7 +7,7 @@
     
 ## Run
 
-./openwithyad
+    ./openwithyad
     
 ## Scrot
 
