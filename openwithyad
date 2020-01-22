@@ -1,0 +1,3 @@
+#!/bin/bash
+
+yad --html --uri=clock.htm --no-buttons --width=600 --height=600 --title="time" --margins=0
