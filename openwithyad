@@ -1,3 +1,8 @@
 #!/bin/bash
 
+actual_path=$(readlink -f "${BASH_SOURCE[0]}")
+script_dir=$(dirname "$actual_path")
+
+cd "$script_dir"
+
 yad --html --uri=clock.htm --no-buttons --width=600 --height=600 --title="time" --margins=0
